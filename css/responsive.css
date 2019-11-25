@@ -65,7 +65,7 @@
     top: -15px;
   }
   .testimonial-content .owl-theme .owl-controls .owl-nav [class*="owl-"]{
-    color: #848484;
+    color: #b1d4e0;
   }
   .testimonial-content .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
     color: #ff5e14;
@@ -128,7 +128,7 @@
   }
   .header-style-four{
     margin-bottom: 0px;
-    background: #333;
+    background: #24324a;
   }
 	.single-team-content{
     padding: 30px 20px;
@@ -217,17 +217,17 @@
     display: none;
   }
   .main-menu .navigation > li > ul > li:hover{
-    background: #333333;
-    border-bottom: 1px dashed #444;
+    background: #f85032;
+    border-bottom: 0.1px dashed #112b44;
   }
   .main-menu .navigation > li > ul > li{
-    background: #333333;
-    border-bottom: 1px dashed #444;
+    background:  #24324a;
+    border-bottom: 0.1px dashed #243249;
     padding: 0px 30px;
   }
   .search-box-area .search-toggle i:hover:before,
   .header-top .top-right .right-content li a:hover{
-    color: #ff5e14;
+    color:#f85032;
   }
   .header-style-two .header-top, .header-style-two .header-bottom{
     margin-bottom: 0px;
@@ -342,7 +342,7 @@
     display: none;
   }
   .header-style-four .header-bottom .nav-outer .main-menu .navigation > li > a{
-    color: #b8b8b8;
+    color: #b1d4e0;
   }
   .we-are-section .custom-tab-title li{
     margin: 0px 10px;
@@ -661,7 +661,7 @@
 @media only screen and (max-width: 499px){
 
   .sticky-header .logo-box{
-    display: none;
+    /* display: none; */
   }
   .cart-section .coupon-box .btn-box .theme-btn{
     float: none;
@@ -692,12 +692,19 @@
     display: none !important;
   }
 
+  .main-slider h1{
+    font-size: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 399px){
 
 	.donate-form-area{
     padding: 30px;
+  }
+  .main-slider h1{
+    font-size: 50px;
   }
   .search-box.now-visible, .search-box-area .search-box{
     right: -210px;
@@ -770,7 +777,9 @@
 
 @media only screen and (max-width: 349px){
 
-
+  .main-slider h1{
+    font-size: 50px;
+  }
 
 }
 
@@ -798,6 +807,7 @@
     top: 0px;
     padding: 0 20px;
   }
+
   .main-header .main-menu {
     width: 100%;
   }  
@@ -830,15 +840,13 @@
     float:none !important;
     margin:0px !important;
     width:100% !important;
-    background: #333333;
-    border:1px solid #ffffff;
-    border-top:none;
+    background:  #24324a;
   }  
   .main-menu .navbar-collapse > .navigation > li{
     margin:0px !important;
     float:none !important;
     width:100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-bottom: 0.8px solid #112b44 !important;
   }  
   .main-menu .navigation > li > a,
   .main-menu .navigation > li > ul:before{
@@ -871,7 +879,7 @@
     right:auto !important;
     top:auto !important;
     width:100%;
-    background: #333333;
+    background: #24324a;
     -webkit-border-radius:0px;
     -ms-border-radius:0px;
     -o-border-radius:0px;
@@ -886,7 +894,8 @@
   }    
   .main-menu .navbar-collapse > .navigation > li > ul,
   .main-menu .navbar-collapse > .navigation > li > ul > li > ul{
-    border-top:1px solid rgba(255,255,255,0.1) !important;
+    border-top: 0.1px solid #112b44 !important;
+   
   }
   .main-menu .navbar-collapse > .navigation > li:last-child{
     border-bottom: none;
@@ -894,10 +903,10 @@
   .main-menu .navbar-collapse > .navigation > li > a,
   .main-menu .navbar-collapse > .navigation > li > ul > li > a,
   .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
-    padding:12px 15px !important;
+    padding: 12px 15px !important;
     line-height:22px;
-    color: #b8b8b8;
-    background: #333333;
+    color: #b1d4e0;
+    background: #24324a;
     text-align:left;
     min-height:0px;
   }  
@@ -907,7 +916,7 @@
   .main-menu .navbar-collapse > .navigation > li.current > a,
   .main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
     color: #ffffff !important;
-    background: #333333;
+    background: #f85032;
   }  
   .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
     display:block;
@@ -915,6 +924,10 @@
   .main-menu .navbar-collapse > .navigation li.dropdown:after,
   .main-menu .navigation > li > ul:before{
     display:none !important;  
+  }
+
+  .main-slider h1{
+    font-size: 50px;
   }
 
 }

@@ -78,7 +78,7 @@ a{
   line-height: 26px;
   font-weight: 400;
   cursor:pointer;
-  color:#848484;
+  color:#b1d4e0;
   transition: all 500ms ease;
 }
 
@@ -283,7 +283,7 @@ figure{
   line-height: 50px;
   text-align: center;
   border: 1px solid #ffffff;
-  color: #848484;
+  color: #b1d4e0;
   transition: all 500ms ease;
 }
 .pagination li a:hover,
@@ -595,7 +595,7 @@ figure{
   background: #ffffff;
   left:0px;
   top:0px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f85032;
   width:100%;
   z-index:0;
   transition:all 500ms ease;
@@ -604,6 +604,7 @@ figure{
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
 }
+
 
 .fixed-header .sticky-header{
   z-index:999;
@@ -712,6 +713,7 @@ figure{
 .header-bottom{
   position: relative;
   background: #ffffff;
+  border-bottom: 2px solid #f85032;
 }
 .main-header .logo-box{
   position: relative;
@@ -775,13 +777,14 @@ figure{
 .main-menu .navigation{
   position:relative;
   margin:auto;
-
+ 
 }
 
 .main-menu .navigation > li{
   position:relative;
   float:left;
   margin: 0px 19px;
+ 
 }
 .main-header .menu-column{
   padding: 0px;
@@ -803,7 +806,7 @@ figure{
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
- 
+  
 }
 .main-menu .navigation > li > a:before{
   position: absolute;
@@ -861,6 +864,7 @@ figure{
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
+  
 }
 .main-menu .navigation > li > ul > li:hover{
   background: #f85032;
@@ -879,7 +883,7 @@ figure{
   right: 0px;
   top: 0px;
   font-size:18px;
-  border-left: 1px solid gray;
+  border-left: 1px solid #112b44;
   color: #b1d4e0;
   width: 50px;
   height: 47px;
@@ -913,6 +917,7 @@ figure{
   padding: 0px;
   margin: 0px;
   border: none;
+  
 }
 .sticky-header .main-menu .navigation > li > a:before{
   display: none;
@@ -1460,7 +1465,6 @@ figure{
   position: relative;
   margin-top: -141px;
   padding: 0px 15px 0px 15px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
   z-index: 1;
 }
 .feature-section .feature-column{
@@ -1476,7 +1480,7 @@ figure{
 .single-feature-content:before{
   position: absolute;
   content: '';
-  background: rgba(255, 94, 20, 0.95);
+  background: #f85032;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -1571,7 +1575,7 @@ figure{
   content: "\f10c";
   font-family: 'FontAwesome';
   font-size: 14px;
-  color: #848484;
+  color: #b1d4e0;
   left: 0px;
   top: 0px;
 }
@@ -1764,7 +1768,7 @@ figure{
   float: right;
 }
 .single-cause-content .price li span{
-  color: #848484;
+  color: #b1d4e0;
 }
 .cause-section .owl-dots{
   display: none !important;
@@ -2646,7 +2650,7 @@ figure{
   top: 107px;
 }
 .cta-style-two .fact-counter .counter-content .text{
-  color: #848484;
+  color: #b1d4e0;
   font-size: 14px;
   margin-top: -2px;
   margin-bottom: 29px;
@@ -3880,7 +3884,7 @@ figure{
   border: 2px solid #ffffff;
   padding: 10px 50px 10px 24px;
   border-radius: 30px;
-  color: #848484;
+  color: #b1d4e0;
   transition: all 500ms ease;
 }
 .default-sidebar-content .sidebar-search .form-group input[type='search']:focus + button,
@@ -5072,7 +5076,7 @@ figure{
   height: 120px;
   padding: 10px 20px;
   background: #f0f1f5;
-  color: #848484;
+  color: #b1d4e0;
   resize: none;
   transition: all 500ms ease;
 }
@@ -5140,7 +5144,7 @@ figure{
   top: 1px;
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #848484;
+  color: #b1d4e0;
 }
 .checkout-section .order-info .sub-total,
 .checkout-section .order-info .order-total{
@@ -5212,7 +5216,7 @@ figure{
   width: 100%;
   height: 45px;
   border: 1px solid #ffffff;
-  color: #848484;
+  color: #b1d4e0;
   line-height: 45px;
   padding: 10px 15px;
   margin-bottom: 23px;
@@ -5347,7 +5351,7 @@ figure{
   height: 50px;
   border: 1px solid #ffffff;
   padding: 10px 20px;
-  color: #848484;
+  color: #b1d4e0;
   margin-bottom: 23px;
   transition: all 500ms ease;
 }
@@ -5648,7 +5652,7 @@ figure{
   padding: 10px 20px;
   font-size: 15px;
   font-style: italic;
-  color: #848484;
+  color: #b1d4e0;
   margin-bottom: 20px;
   transition: all 500ms ease;
 }
